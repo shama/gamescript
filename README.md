@@ -24,7 +24,6 @@ gamescript({
     "    hp: 10,",
     "  })",
     "})",
-    "// Define which actions players can perform to each other.",
     "game.action('attack', function(player, target) {",
     "  var hp = util.clamp(target.hp - (util.random(0, 3)), 0, target.hp)",
     "  target.set('hp', hp)",
