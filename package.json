@@ -1,0 +1,27 @@
+{
+  "name": "gamescript",
+  "version": "1.0.0",
+  "description": "an event based game engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shama/gamescript"
+  },
+  "keywords": [
+    "game",
+    "script",
+    "engine"
+  ],
+  "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shama/gamescript/issues"
+  },
+  "homepage": "https://github.com/shama/gamescript",
+  "devDependencies": {
+    "tape": "^3.0.3"
+  }
+}
